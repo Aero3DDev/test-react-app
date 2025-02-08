@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.About-logo {
+  height: 20vmin;
+  pointer-events: none;
+  color: #61DAFB;
+}
+
+.Careers-logo {
+  height: 20vmin;
+  pointer-events: none;
+  color: #61DAFB;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -24,19 +36,18 @@
   color: white;
 }
 
-.App-link {
-  float: left;
-  border-right:1px solid #bbb;
-
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.App-link:link, .App-link:visited {
+    background-color: #087EA4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
 }
 
-.App-link:hover:not(.active) {
-  background-color: #61dafb;
+.App-link:hover, .App-link:active {
+  background-color: #3998B6;
 }
 
 .App-navbar {
@@ -47,8 +58,24 @@
   background-color: #333;
 }
 
-.active {
-  background-color: #61dafb;
+.App-navbar .navbar-link {
+  float: left;
+  border-right:1px solid #bbb;
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.App-navbar .navbar-link:hover:not(.active) {
+  background-color: #343A46;
+}
+
+.App-navbar .navbar-link.active {
+  color: #58C4DC;
+  background-color: #283541;
 }
 
 @keyframes App-logo-spin {
