@@ -27,6 +27,16 @@
 .App-link {
   float: left;
   border-right:1px solid #bbb;
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.App-link:hover:not(.active) {
+  background-color: #61dafb;
 }
 
 .App-navbar {
