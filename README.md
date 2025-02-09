@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to Deploy React Apps to GitHub pages
+
+Follow the article [Deploying React apps to GitHub Pages](https://blog.logrocket.com/deploying-react-apps-github-pages).<br/>
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +72,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Troubleshooting
+
+### Errors and dependency conflict when use create-react-app
+Follow the discussion [Error when use create-react-app](https://github.com/facebook/react/issues/32016)
+
+### Error: Cannot find module 'ajv/dist/compile/codegen'
+Follow the discussion [Cannot find module 'ajv/dist/compile/codegen'](https://stackoverflow.com/questions/70020046/quasar-error-cannot-find-module-ajv-dist-compile-codegen)
+
+### For some other issues
+Follow the discussions on GitHub [create-react-app issues](https://github.com/facebook/create-react-app/issues)
